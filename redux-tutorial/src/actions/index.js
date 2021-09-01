@@ -9,3 +9,10 @@ export const decrement = () => {
         type: 'DECREMENT'
     }
 }
+
+export const submit = (input) => {
+    return {
+        type: 'SUBMIT',
+        input: input
+    }
+}
