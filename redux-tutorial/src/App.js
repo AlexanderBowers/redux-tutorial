@@ -18,7 +18,7 @@ function App() {
       <h1>Counter {counter}</h1>
       <button onClick={() => dispatch(increment())}>+</button>
       <button onClick={() => dispatch(decrement())}>-</button>
-      {isLogged ? <h3>This variable is false so I won't see this test</h3> : ''}
+      {isLogged ? <h3>This variable is false so I won't see this</h3> : ''}
 
       <LocalForm
         onUpdate={(form) => this.handleUpdate(form)}
