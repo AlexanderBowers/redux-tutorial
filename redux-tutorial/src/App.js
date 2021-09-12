@@ -1,7 +1,7 @@
 import './App.css';
 import {useSelector, useDispatch} from 'react-redux';
 import {increment, decrement} from './actions';
-import {LocalForm, Control} from 'react-redux-form'
+import {form} from './Components/form'
 
 function App() {
   const counter = useSelector(state => state.counter)
