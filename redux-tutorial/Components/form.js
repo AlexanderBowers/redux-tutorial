@@ -8,6 +8,7 @@ let ContactForm = props => {
        <div>
            <label htmFor='firstName' component="input" type="text" />
        </div>
+       <button type='submit'>Submit</button>
        </form>
     )
 }
