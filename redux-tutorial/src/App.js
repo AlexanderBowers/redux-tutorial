@@ -9,10 +9,6 @@ function App() {
   const input = useSelector(state => state.input)
   const dispatch = useDispatch()
 
-  handleChange(values) 
-  handleUpdate(form) 
-  handleSubmit(values) 
-
   return (
     <div className="App">
       <h1>Counter {counter}</h1>
@@ -20,13 +16,6 @@ function App() {
       <button onClick={() => dispatch(decrement())}>-</button>
       {isLogged ? <h3>This variable is false so I won't see this</h3> : ''}
 
-      <LocalForm
-        onUpdate={(form) => this.handleUpdate(form)}
-        onChange={(values) => this.handleChange(values)}
-        onSubmit={(values) => this.handleSubmit(values)}
-      >
-        <Control.text model="testForm"/>
-      </LocalForm>
     </div>
   );
 }

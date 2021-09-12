@@ -10,9 +10,9 @@ export const decrement = () => {
     }
 }
 
-export const submit = (input) => {
+export const update = (input) => {
     return {
-        type: 'SUBMIT',
+        type: 'UPDATE',
         input: input
     }
 }
