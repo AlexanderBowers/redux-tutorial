@@ -1,7 +1,7 @@
 import React from 'react'
-import ContactForm from './components/ContactForm'
+import {ContactForm} from './components/form'
 
-const FormPage = (props) => {
+export const FormPage = (props) => {
     submit = values => {
         console.log(values)
     }
