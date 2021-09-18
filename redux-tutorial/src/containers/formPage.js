@@ -1,6 +1,6 @@
 import React from 'react'
 //import {ContactForm} from './components/form'
-import {newForm} from './components/newForm'
+import newForm from './components/newForm'
 
 export const FormPage = (props) => {
     submit = values => {
@@ -8,7 +8,7 @@ export const FormPage = (props) => {
     }
     render() 
         //return <ContactForm onSubmit={this.submit}/>
-        return <newForm/>
+        return newForm
     
 }
 export default FormPage
